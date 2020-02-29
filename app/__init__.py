@@ -1,5 +1,6 @@
 import logging
 from logging.handlers import SMTPHandler, RotatingFileHandler
+import os
 
 from flask import Flask
 from config import Config
